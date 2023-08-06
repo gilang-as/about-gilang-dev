@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../app/routes/jokes.tsx"],
-  "sourcesContent": ["import styled from \"@emotion/styled\";\nimport { Link } from \"@remix-run/react\";\n\nconst Container = styled(\"div\")`\n  background-color: #d6d6d6;\n`;\n\nexport default function Jokes() {\n    return (\n        <Container>\n            <h1>Jokes</h1>\n            <p>This route works fine.</p>\n            <Link to=\"/\">Back to home</Link>\n        </Container>\n    );\n}\n"],
-  "mappings": ";;;;;;;;;;;;;;AAUY;AAPZ,IAAM,YAAY,UAAO,KAAK;AAAA;AAAA;AAIf,SAAR,QAAyB;AAC5B,SACI,mDAAC,aACG;AAAA,uDAAC,QAAG,qBAAJ;AAAA;AAAA;AAAA;AAAA,WAAS;AAAA,IACT,mDAAC,OAAE,sCAAH;AAAA;AAAA;AAAA;AAAA,WAAyB;AAAA,IACzB,mDAAC,QAAK,IAAG,KAAI,4BAAb;AAAA;AAAA;AAAA;AAAA,WAAyB;AAAA,OAH7B;AAAA;AAAA;AAAA;AAAA,SAIA;AAER;",
-  "names": []
-}

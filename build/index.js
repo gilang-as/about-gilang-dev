@@ -39,7 +39,7 @@ var import_react2 = require("@emotion/react"), import_create_instance = __toESM(
 // app/styles/createEmotionCache.ts
 var import_cache = __toESM(require("@emotion/cache"));
 function createEmotionCache() {
-  return (0, import_cache.default)({ key: "remix-css" });
+  return (0, import_cache.default)({ key: "gilang" });
 }
 
 // app/styles/server.context.tsx
@@ -396,7 +396,8 @@ var import_styled2 = __toESM(require("@emotion/styled")), import_typewriter_effe
     justify-content: center;
   }
 `, InformationLinkItem = (0, import_styled2.default)("li")`
-  margin-right: 1rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 `, InformationLinkLink = (0, import_styled2.default)("a")`
   color: #5E6E80;
   text-decoration: none;
@@ -604,7 +605,7 @@ function Jokes() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { version: "5eabbd46", entry: { module: "/build/entry.client-M2QYUWFM.js", imports: ["/build/_shared/chunk-JP3NGNYN.js", "/build/_shared/chunk-OZL2XMJ4.js", "/build/_shared/chunk-BLMYZOJW.js", "/build/_shared/chunk-5KL4PAQL.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-T3QFXNID.js", imports: ["/build/_shared/chunk-AEYANUH5.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !0, hasErrorBoundary: !0 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-2OZCONQL.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/jokes": { id: "routes/jokes", parentId: "root", path: "jokes", index: void 0, caseSensitive: void 0, module: "/build/routes/jokes-IXATDWY6.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/jokes-error": { id: "routes/jokes-error", parentId: "root", path: "jokes-error", index: void 0, caseSensitive: void 0, module: "/build/routes/jokes-error-FR3ALCRU.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, cssBundleHref: void 0, hmr: void 0, url: "/build/manifest-5EABBD46.js" };
+var assets_manifest_default = { version: "95d88abf", entry: { module: "/build/entry.client-3N6K2HIY.js", imports: ["/build/_shared/chunk-JP3NGNYN.js", "/build/_shared/chunk-OZL2XMJ4.js", "/build/_shared/chunk-BLMYZOJW.js", "/build/_shared/chunk-5KL4PAQL.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-T3QFXNID.js", imports: ["/build/_shared/chunk-AEYANUH5.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !0, hasErrorBoundary: !0 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-TAU5D6AO.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/jokes": { id: "routes/jokes", parentId: "root", path: "jokes", index: void 0, caseSensitive: void 0, module: "/build/routes/jokes-IXATDWY6.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/jokes-error": { id: "routes/jokes-error", parentId: "root", path: "jokes-error", index: void 0, caseSensitive: void 0, module: "/build/routes/jokes-error-FR3ALCRU.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, cssBundleHref: void 0, hmr: void 0, url: "/build/manifest-95D88ABF.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { unstable_cssModules: !1, unstable_cssSideEffectImports: !1, unstable_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, unstable_vanillaExtract: !1, v2_errorBoundary: !1, v2_meta: !1, v2_routeConvention: !1 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {

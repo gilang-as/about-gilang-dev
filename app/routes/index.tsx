@@ -1,6 +1,5 @@
 import styled from "@emotion/styled";
 import Typewriter from 'typewriter-effect';
-import { useEffect, useRef } from "react";
 
 const Main = styled("main")`
   height: 100vh;
@@ -148,7 +147,8 @@ const InformationLink = styled("span")`
   }
 `;
 const InformationLinkItem = styled("li")`
-  margin-right: 1rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 `;
 const InformationLinkLink = styled("a")`
   color: #5E6E80;
