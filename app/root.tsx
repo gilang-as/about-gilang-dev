@@ -75,7 +75,7 @@ const Document = withEmotionCache(
         }, [clientStyleData, emotionCache.sheet]);
 
         return (
-            <html lang="en">
+            <html lang="en" translate="no">
             <head>
                 {title ? <title>{title}</title> : null}
                 <Meta />

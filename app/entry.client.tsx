@@ -2,10 +2,10 @@ import { CacheProvider } from "@emotion/react";
 import { RemixBrowser } from "@remix-run/react";
 import * as React from "react";
 import { hydrate } from "react-dom";
-
 import ClientStyleContext from "~/styles/client.context";
 import createEmotionCache from "~/styles/createEmotionCache";
 
+import ThemeProvider from "~/styles/themes/Provider";
 interface ClientCacheProviderProps {
     children: React.ReactNode;
 }
@@ -19,7 +19,11 @@ function ClientCacheProvider({ children }: ClientCacheProviderProps) {
 
     return (
         <ClientStyleContext.Provider value={{ reset }}>
-            <CacheProvider value={cache}>{children}</CacheProvider>
+            <CacheProvider value={cache}>
+                <ThemeProvider>
+                    {children}
+                </ThemeProvider>
+            </CacheProvider>
         </ClientStyleContext.Provider>
     );
 }
