@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../app/routes/jokes-error.tsx"],
-  "sourcesContent": ["export default function JokesError() {\n    throw new Error(\"This route is no joking with us.\");\n}\n"],
-  "mappings": ";;;AAAe,SAAR,aAA8B;AACjC,QAAM,IAAI,MAAM,kCAAkC;AACtD;",
-  "names": []
-}
