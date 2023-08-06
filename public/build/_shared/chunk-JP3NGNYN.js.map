@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../app/styles/client.context.tsx"],
+  "sourcesContent": ["import { createContext } from \"react\";\n\nexport interface ClientStyleContextData {\n    reset: () => void;\n}\n\nconst ClientStyleContext = createContext<ClientStyleContextData>({\n    reset: () => {},\n});\n\nexport default ClientStyleContext;\n"],
+  "mappings": ";;;;;;;;AAAA,mBAA8B;AAM9B,IAAM,yBAAqB,4BAAsC;AAAA,EAC7D,OAAO,MAAM;AAAA,EAAC;AAClB,CAAC;AAED,IAAO,yBAAQ;",
+  "names": []
+}
