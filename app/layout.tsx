@@ -9,8 +9,11 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Gilang Adi S - Software Engineer & Full-Stack Developer",
-  description:
-    "Building scalable web applications with modern technologies. Passionate about clean code, user experience, and solving complex problems through elegant solutions.",
+  description: "Building scalable web applications with modern technologies. Passionate about clean code, user experience, and solving complex problems through elegant solutions.",
+  robots: {
+    index: false,
+    follow: false,
+  },
   icons: {
     icon: [
       {
